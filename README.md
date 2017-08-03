@@ -1,39 +1,63 @@
-## Welcome to PLON Docs
+## FREQUENTLY ASKED QUESTIONS
 
 
+### 1. How to install packages?
 
-You can use the [editor on GitHub](https://github.com/plon-io/plon-docs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The easiest way to install a package is by clicking the _Packages_ button in upper-right corner of the main view of your project. 
+Then you just need to write the name of the package you'd wish to install in the field in the bottom of the window that has showed up and click _install_. 
+You could do this via console or terminal as well. Depending on language it would be 
+- `!pip install <package_name>` for **Python** (!pip3 for Python3), 
+- `Pkg.add("<package_name>")` for **Julia**, 
+- `install.packages("<package_name>")` for **R**,
+- `pkg install <package_name>` for **Octave**.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### 2. How to install system libraries?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The easiest way to do that is by logging in to the terminal and then simply typing in `sudo apt-get install <package_name> <other_package_name>`. 
+However, you could do that from the Interactive Console as well by typing in acordingly 
+- `!sudo apt-get install <package_name>` if using Python or Octave, 
+- ```Base.run(`sudo apt-get install <package_name> <other_package_name>`)``` (**Mind the quotation marks!**) for Julia,
+- `system("sudo apt-get install <package_name> <other_package_name>")` for R.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### 3. How to connect my project to GIT repository?
 
-- Bulleted
-- List
+You can do it by typing in `git init; git remote add origin <url-to-your-repository>`. 
+As said in the question 2., you can do it by typing in the commands in the terminal or Interactive Cosnole.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+#### 3a. How to connect my project with GitHub?
 
-[Link](url) and ![Image](src)
-```
+We have prepared a video explaining the whole process step-by-step. 
+[How to put your PLON project on GitHub?](https://www.youtube.com/watch?v=FmFIYYGKeXc)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### 4. I'm out of funds and cannot access my project, what to do??
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/plon-io/plon-docs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Free accounts funds are renewed monthly.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 5. How can i publish my project and what does it involve?
+
+You can now publish your project by simply clicking the _Publish_ button in the upper-right corner of IDE, or in the Dashboard where all your projects are listed by clicking the Publish Project icon. 
+If you don't want your project to be shown and be accessible from the public _Explore_ area, you can simply check the _Private_ option. 
+You will then get a direct link to your project which you can share.
+
+
+### 6. How can i contact you?
+
+The easiest way to do this is sending us an e-mail to [support@plon.io](support@plon.io), or 
+contact us directly by Messenger on our [Facebook page](https://www.facebook.com/plonsci) or 
+the built-in chat on [plon.io](https://plon.io) in the lower-right corner of the page. 
+
+
+### 7. How can i upload files to my project?
+
+After opening your project you can simply **drag&drop** files from your computer to the workspace folder which is shown on the left of the IDE.
+
+# Meet us!
+- For important notices and announcements you can visit our [Facebook page](https://www.facebook.com/plonsci). 
+- If you're interested in our workflow and some thoughts on machine-learning and software house management, visit our [blog](http://ermlab.com/blog/).
+- You will find more videos on using *plon.io* and it's different features on our [YouTube channel](https://www.youtube.com/channel/UCgXErw2D2ZarzNybmlYRYTA).
+- For most recent news and interesting projects visit out [Twitter](https://twitter.com/plon_io).
