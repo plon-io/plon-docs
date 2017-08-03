@@ -6,7 +6,7 @@
 The easiest way to install a package is by clicking the _Packages_ button in upper-right corner of the main view of your project. 
 Then you just need to write the name of the package you'd wish to install in the field in the bottom of the window that has showed up and click _install_. 
 You could do this via console or terminal as well. Depending on language it would be 
-- `!pip install <package_name>` for **Python** (!pip3 for Python3), 
+- `!pip install <package_name>` for **Python** (`!pip3` for Python3), 
 - `Pkg.add("<package_name>")` for **Julia**, 
 - `install.packages("<package_name>")` for **R**,
 - `pkg install <package_name>` for **Octave**.
@@ -17,13 +17,14 @@ You could do this via console or terminal as well. Depending on language it woul
 The easiest way to do that is by logging in to the terminal and then simply typing in `sudo apt-get install <package_name> <other_package_name>`. 
 However, you could do that from the Interactive Console as well by typing in acordingly 
 - `!sudo apt-get install <package_name>` if using **Python** or **Octave**, 
-- ```Base.run(`sudo apt-get install <package_name> <other_package_name>`)``` (**Mind the grave accents!**) for **Julia**,
+- ```Base.run(`sudo apt-get install <package_name> <other_package_name>`)``` 
+(*Mind the grave accents!*) for **Julia**,
 - `system("sudo apt-get install <package_name> <other_package_name>")` for **R**.
 
 
 ### 3. How to connect my project to GIT repository?
 
-You can do it by typing in `git init; git remote add origin <url-to-your-repository>`. 
+You can do it by typing in `git init; git remote add origin <url-to-your-repository>`.
 As said in the question 2., you can do it by typing in the commands in the terminal or Interactive Cosnole.
 
 
