@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: [Plon.io documentation]
 description: [Online IDE for numerical and data science computing]
+future: true
