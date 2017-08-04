@@ -43,19 +43,19 @@ Then you just need to write the name of the package you'd wish to install in the
 You could do this via Interactive Console or [terminal][1] as well. Depending on language it would be 
 - **Python** (`!pip3` for Python3)
 ```
-!pip install <package_name>
+!pip install package_name
 ``` 
 - **Julia**
 ```
-Pkg.add("<package_name>")
+Pkg.add("package_name")
 ```
 - **R**
 ```
-install.packages("<package_name>")
+install.packages("package_name")
 ```
 - **Octave**
 ```
-pkg install <package_name>
+pkg install package_name
 ```
 
 
@@ -65,22 +65,22 @@ pkg install <package_name>
 The easiest way to do that is by logging in to the terminal and then simply typing in 
 
 ```sh
-> sudo apt-get install -y <package_name> <other_package_name>
+> sudo apt-get install -y package_name other_package_name
 ```
 
 
 However, you could do that from the Interactive Console as well by typing in acordingly 
 - **Python** or **Octave**
 ```python
-!sudo apt-get install -y <package_name>
+!sudo apt-get install -y package_name
 ```
 - **Julia** - *mind the backticks (grave accents)!*
 ```julia
-Base.run(`sudo apt-get install -y <package_name> <other_package_name>`)
+Base.run(`sudo apt-get install -y package_name other_package_name`)
 ``` 
 - **R**
 ```R
-system("sudo apt-get install -y <package_name> <other_package_name>")
+system("sudo apt-get install -y package_name other_package_name")
 ```
 
 
@@ -90,7 +90,7 @@ system("sudo apt-get install -y <package_name> <other_package_name>")
 You can do it by typing in 
 ```sh
 git init
-git remote add origin <url-to-your-repository>
+git remote add origin url-to-your-repository
 ``` 
 into the [terminal][1] or [Interactive Cosnole][3].
 
