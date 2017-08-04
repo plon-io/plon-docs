@@ -110,9 +110,13 @@ git fetch && git pull
 #### 4a. How to connect my project with GitHub?
 
 We have prepared a video explaining the whole process step-by-step. 
-<a href="#" onclick="show_video()">How to put your PLON project on GitHub?</a>
-<div id="video_container"></div>
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=FmFIYYGKeXc" target="_blank" style="text-align: center;">
+  <span>How to put your PLON project on GitHub?</span>
+  <br/>
+  <img src="http://img.youtube.com/vi/FmFIYYGKeXc/0.jpg" alt="How to put your PLON project on GitHub?" width="240" height="180" border="2" />
+
+</a>
 
 
 
