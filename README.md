@@ -114,9 +114,7 @@ We have prepared a video explaining the whole process step-by-step.
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=FmFIYYGKeXc" target="_blank" style="text-align: center;">
   <span>How to put your PLON project on GitHub?</span>
   <br/>
-  <img src="http://img.youtube.com/vi/FmFIYYGKeXc/0.jpg" alt="How to put your PLON project on GitHub?" width="240" height="180" border="2" />
-
-</a>
+  <img src="http://img.youtube.com/vi/FmFIYYGKeXc/0.jpg" alt="How to put your PLON project on GitHub?" width="240" height="180" border="2" /></a>
 
 
 
