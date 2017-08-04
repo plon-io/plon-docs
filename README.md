@@ -18,7 +18,6 @@ The easiest way to do that is by logging in to the terminal and then simply typi
 
 ```sh
 > sudo apt-get install <package_name> <other_package_name>
-
 ```
 
 
