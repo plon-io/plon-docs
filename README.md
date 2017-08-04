@@ -14,7 +14,10 @@ You could do this via console or terminal as well. Depending on language it woul
 
 ### 2. How to install system libraries?
 
-The easiest way to do that is by logging in to the terminal and then simply typing in `sudo apt-get install <package_name> <other_package_name>`. 
+The easiest way to do that is by logging in to the terminal and then simply typing in 
+
+```sudo apt-get install <package_name> <other_package_name>```.
+
 However, you could do that from the Interactive Console as well by typing in acordingly 
 - `!sudo apt-get install <package_name>` if using **Python** or **Octave**, 
 - ```Base.run(`sudo apt-get install <package_name> <other_package_name>`)``` 
