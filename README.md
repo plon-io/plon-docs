@@ -27,6 +27,8 @@ Paste your password by pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> +  <kbd>V</kb
 
 ![Password](/images/terminal3.png)
 
+
+
 ### 2. How to install packages?
 
 The easiest way to install a package is by clicking the _Packages_ button in upper-right corner of the main view of your project. 
@@ -57,6 +59,7 @@ pkg install <package_name>
 ```
 
 
+
 ### 3. How to install system libraries?
 
 The easiest way to do that is by logging in to the terminal and then simply typing in 
@@ -79,6 +82,7 @@ Base.run(`sudo apt-get install -y <package_name> <other_package_name>`)
 ```R
 system("sudo apt-get install -y <package_name> <other_package_name>")
 ```
+
 
 
 ### 4. How to connect my project to GIT repository?
@@ -106,7 +110,10 @@ git fetch && git pull
 #### 4a. How to connect my project with GitHub?
 
 We have prepared a video explaining the whole process step-by-step. 
-[How to put your PLON project on GitHub?](https://www.youtube.com/watch?v=FmFIYYGKeXc)
+<a href="#" onclick="show_video()">How to put your PLON project on GitHub?</a>
+<div id="video_container"></div>
+
+
 
 
 ### 5. I'm out of funds and cannot access my project, what to do??
@@ -116,6 +123,8 @@ Free accounts funds are renewed monthly. The credits are added automatically eve
 In case you would like to access your project and files earlier, you can always add funds to your account by visiting [billing](https://app.plon.io/dashboard/billing) page.
 
 ![Billing page](/images/billing.png)
+
+
 
 
 ### 6. How can i publish my project and what does it involve?
@@ -131,11 +140,16 @@ If you don't want your project to be shown and be accessible from the public [Ex
 You will then get a direct link to your project which you can later share.
 
 
+
+
 ### 7. How can i upload files to my project?
 
 After opening your project you can simply **drag & drop** files from your computer to the workspace folder which is shown on the left of the IDE.
 
 ![File upload gif](/images/file_upload.gif)
+
+
+
 
 ### 8. How can i contact you?
 
